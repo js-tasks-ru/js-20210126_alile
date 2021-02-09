@@ -13,7 +13,7 @@ export const pick = (obj, ...fields) => {
   };
   */
 
-  let result = {};
+  const result = {};
 
   for (let arg of fields) {
     if (arg in obj) {
